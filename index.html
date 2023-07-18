@@ -1,88 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Watchaholics</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Bentham&family=Jaldi&family=Kurale&family=Neuton:ital@1&family=Overlock&family=Sriracha&family=Uchen&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.4/swiper-bundle.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
-
 <body>
-  <nav class="navbar">
-    <ul class="nav-list ">
-      <div class="logo">
-        <img src=img\watchaholics.png alt="logo">
-      </div>
-      <li><a href="Menwatch.html">Men</a></li>
-      <li><a href="Womenwatch.html">Women</a></li>
-      <li><a href="#Smart">Smart</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contactus.html">Contactus</a></li>
-      
-    </ul>
+<header class="header">
 
+    <nav class="navbar  navbar-expand-lg bg-white navbar-light  py-0 ">
+        <img class="logo" src="img/watchaholics.png" alt="">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active "> Home</a>
+            <a href="Menwatch.html" class="nav-item nav-link" >Men</a>
+            <a href="Womenwatch.html" class="nav-item nav-link">Women</a>
+            <a href="index.html" class="nav-item nav-link">Smart</a>
+            <a href="about.html" class="nav-item nav-link"> AboutUs</a>
+        </div>
+        <div class="rightNav">
+          <button class="contact py-1 px-2">Contact</button>
+          <button class="login">Log In</button>
+       </div>
+       </div>
+   </nav>
 
-    <div class="rightNav">
-      <form class="nosubmit">
-        <input class="nosubmit" type="search" placeholder="Search...">
-      </form>
+</header>
+  <div class="firstsection"></div>
+
+  <div class="trending">
+  <h1 class="text-center">Trending</h1>
+  <div class="trending-watches my-5">
+    <div class="watch">
+      <img src="img\ts.jpg" alt="">
+      <h6 class="text-center">Tissot </h6>
     </div>
-  </nav>
-  <section class=" background firstsection">
-
-    <div class="box-main">
-      <div class="firsthalf"><img src="img\24.gif"></div>
-      <div class="secondhalf">
-      </div>
+    <div class="watch"  >
+      <img src="img\john.jpg" alt="">
+      <h6 class="text-center">Daniel Washington </h6>
     </div>
-  </section>
-
-  <div class="paras">
-    <p>Trending</p>
+    <div class="watch"  >
+      <img src="img\ts.jpg" alt="">
+      <h6 class="text-center">Tommy Hilfiger</h6>
+    </div>
+    <div class="watch">
+      <img src="img\john.jpg" alt="">
+      <h6 class="text-center">Rolex </h6>
+    </div> 
+    <div class="watch"><img src="img\ts.jpg" alt="">
+      <h6 class="text-center">Fossil</h6>
+    </div>
   </div>
-  <section class="section4">
-    
-  
-    <div class="watch"><img class="trending" src="img\bruno.jpg" alt="">
-      <h6>Tissot </h6>
-    </div>
-    
-  
-    <div class="watch"><img class="trending" src="img\13.jpg" alt="">
-      <h6>Daniel Washington </h6>
-    </div>
-  
-    <div class="watch"><img class="trending" src="img\mauro.jpg" alt="">
-      <h6>Tommy Hilfiger</h6>
-    </div>
-  
-    <div class="watch"><img class="trending" src="img\john.jpg" alt="">
-      <h6>Rolex </h6>
-    </div>
-    <div class="watch"><img class="trending" src="img\ts.jpg" alt="">
-      <h6>Fossil</h6>
-    </div>
-  </section>
+</div>
+<div class="thirdsection ">
+  <div class="categories d-flex mx-5 ">
 
-  <div class="paras">
-    <p>Best Seller</p>
+    <div class="women my-5 py-5 ">
+      <h1 class="text-center " >Watches for Women</h1>
+      <img  class="categories-img" src="img\women.jpg" alt="img">
+      <div class="text-center">
+      <button class="btn btn-primary my-3">Shop now </button>
+      </div>
+    </div>
+    <div class="Men my-5 py-5 ">
+      <h1  class="text-center">Watches for Men</h1>
+      <img id="men-watch" class="categories-img" src="img\5.jpg" alt="img">
+      <div class="text-center">
+      <button type="button" class="btn btn-primary my-3">Shop now </button>
+    </div>
+    </div>
   </div>
-  <section id="product1" class="section2">
-    <div class="swiper mySwiper container">
-      <div class="swiper-wrapper content">
-        <div class=" swiper-slide watch">
-    <div class="watch-content">
+</div>
+
+
+
+
+<div class="container-fluid facts my-5 ">
+  <div class="row g-5">
+      <div class="col-md-6 col-xl-3 " data-wow-delay="0.1s">
+          <div class="text-center all-facts border p-5">
+              <i class="fa fa-certificate fa-3x  mb-3 text-black"></i>
+              <h1 class=" number display-2  mb-0" data-toggle="counter-up">5</h1>
+              <span class="fs-5 fw-semi-bold ">100% ORIGINAL</span>
+          </div>
+      </div>
+      <div class="col-md-6 col-xl-3 wow fadeIn text-black" data-wow-delay="0.3s">
+          <div class="text-center border p-5">
+              <i class="fa fa-users-cog fa-3x  mb-3 text-black"></i>
+              <h1 class="display-2  mb-0" data-toggle="counter-up">7</h1>
+              <span class="fs-5 fw-semi-bold ">7 DAY RETURN</span>
+          </div>
+      </div>
+      <div class="col-md-6 col-xl-3 aos fadeIn text-black" data-wow-delay="0.5s">
+          <div class="text-center border p-5">
+              <i class="fa fa-users fa-3x  mb-3 text-black"></i>
+              <h1 class="display-2  mb-0" data-toggle="counter-up">200</h1>
+              <span class="fs-5 fw-semi-bold ">FREE SHIPPING</span>
+          </div>
+      </div>
+      <div class="col-md-6 col-xl-3 aos fadeIn" data-wow-delay="0.5s">
+        <div class="text-center border p-5">
+            <i class="fa fa-users fa-3x  mb-3 text-black"></i>
+            <h1 class="display-2  mb-0" data-toggle="counter-up">1000+</h1>
+            <span class="fs-5 fw-semi-bold ">HAPPY CUSTOMERS</span>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <h1 class="text-center my-3" data-wow="zoom-in">Best Sellers</h1>
+  
+    <div class="swiper mySwiper">
+      <div class="container swiper-wrapper ">
+       
+  <div class="swiper-slide mx-5 watch-data" data-wow="fade-right">
+    <div class="watch-content ">
       <a href="watch5.html">
-      <img id="vw" src="img\VW.jpg" alt=""></a>
-      <div class="des">
+      <img id="bestseller-watch1" src="img\VW.jpg" alt=""></a>
+      <div class="des text-center">
         <span>Vivienne Westwood</span>
-        <h6>Ladies Vivienne Westwood Watch </h6>
+        <h6 class="text-center">Ladies Vivienne Westwood Watch </h6>
         <div class="star">
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
@@ -90,17 +146,16 @@
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
         </div>
-        <h4>₹ 8800</h4>
+        <h5>₹ 8800</h5>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
       </div>
     </div>
-    </div>
+  </div>
 
-    <div class=" swiper-slide watch">
-    <div class="watch-content">
+  <div class=" swiper-slide watch-data">
+    <div class="watch-content my-3">
       <a href="watch6.html">
-       <img id="firstwatchg" src="img/2648WL01_2.webp" height="35">
-      </a>
+       <img id="bestseller-watch" src="img/2648WL01_2.webp" height="35"></a>
        <div class="des">
         <span>Titan</span>
         <h6>Titan Sparkle Women’s Multi-Functional Dress Watch </h6>
@@ -110,60 +165,53 @@
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
         </div>
-        <h4>₹ 7800</h4>
+        <h5>₹ 7800</h5>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
       </div>
     </div>
-    </div>
+  </div>
 
-    <div class=" swiper-slide watch">
-    <div class="watch-content">
+ <div class=" swiper-slide watch-data">
+    <div class="watch-content my-3">
       <a href="watch2.html">
-    <img id="jpg" src="img\apple.jpeg" alt="">
-  </a>
+      <img id="bestseller-watch3" src="img\apple.jpeg" alt=""></a>
       <div class="des">
         <span>Apple Watch</span>
-        <h6>APPLE Watch Series 1 - 38mm - Sport Band - Aluminum Case
-
-        </h6>
+        <h6>APPLE Watch Series 1 - 38mm - Sport Band - Aluminum Case</h6>
         <div class="star">
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
         </div>
-        <h4>₹ 9000</h4>
+        <h5>₹ 9000</h5>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
       </div>
     </div>
-    </div>
+  </div>
 
-    <div class=" swiper-slide watch">
-    <div class="watch-content ">
+  <div class=" swiper-slide watches-data">
+    <div class="watch-content my-3">
       <a href="watch8.html">
-      <img id="tm" src="img\tommy-hilfiger.jpg" alt="">
-    </a>
+      <img id="tm" src="img\tommy-hilfiger.jpg" alt=""></a>
       <div class="des">
         <span>Tommy Hilfiger</span>
         <h6>TOMMY HILFIGERAustin Quartz Black Dial Men's Watch</h6>
         <div class="star">
-
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
         </div>
-        <h4>₹ 10,000</h4>
+        <h5>₹ 10,000</h5>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
       </div>
     </div>
-    </div>
+  </div>
 
-    <div class=" swiper-slide watch">
-    <div class="watch-content">
+  <div class=" swiper-slide watches-data">
+    <div class="watch-content my-3">
       <a href="watch3.html">
-      <img id="firstwatch" src="img\fastrack2.webp" alt="">
-    </a>
-    
+        <img id="bestseller-watch" src="img\fastrack2.webp" alt=""> </a>
       <div class="des">
         <span>Fastrack </span>
         <h6>Fastrack Trendies Black Dial Analog Watch for Girls</h6>
@@ -174,16 +222,16 @@
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
         </div>
-        <h4>₹ 5000</h4>
+        <h5>₹ 5000</h5>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
       </div>
     </div>
-    </div>
+  </div>
 
-    <div class=" swiper-slide watch">
-    <div class="watch-content ">
+  <div class=" swiper-slide watches-data">
+    <div class="watch-content my-3">
       <a href="watch.html">
-      <img id="firstwatch"  src="img\dw.webp" alt=""></a>
+      <img id="bestseller-watch"  src="img\dw.webp" alt=""></a>
       <div class="des">
         <span>Daniel Wellington</a></span>
         <h6>  Daniel Wellington DW Watch Iconic link</h6>
@@ -193,110 +241,93 @@
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
         </div>
-        <h4>₹ 7000</h4>
+        <h5>₹ 7000</h5>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
-      </div>
-      </div>
-      </div>
-      </div>
+       </div>
+     </div>
+  </div>
+</div>
       
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
-      </div>
-  </section>
-
-  <section class="classify">
-    <div class="categories">
-      <a href="Womenwatch.html"><img src="img\women.jpg" alt="img"></a>
-      <a href="Menwatch.html"><img src="img\5.jpg" alt="img"></a>
     </div>
-  </section>
-
-  <div class="text">
-    <p id="text">Watches for Women</p>
-    <p id="men">Watches for Men</p>
-  </div>
-  </div>
-  <div class="small-text">
-    <p id="small-text"><button class="SN">Shop now </button></p>
-    <p id="shop"><button class="SN">Shop now</button></p>
-  </div>
   </div>
 
 
+ 
 
 
 
-
-  
-  <section class="sectionmen">
-    <div class="sec3" ><img id="watchS" src="img\Sonata.jpg" alt="">
-      <h6>Sonata Analog Black Dial Men's Watch-NN7924NM01/NP7924NM01 </h6>
+  <div class="mensection-watches">
+  <div class="container mensection">
+    <div class="watch-box pt-5" >
+      <img id="img1"  class="watches-for-men" src="img\Sonata.jpg" alt="">
+      <h6  class="watch-text text-center pt-3">Sonata Analog Black <br> Dial Men's Watch-NN7924NM01/NP7924NM01 </h6>
     </div>
-    <div class="sec3"><img id="watchSeiko" src="img\1024x1024.jpg" width="45%" height="200%">
-      <h6 id="hsix">Seiko Essentials SSB321 Watch
-        SSB321</h6>
+    <div class="watch-box mx-3 pt-5">
+      <img id="img2" class="watches-for-men" src="img\1024x1024.jpg" width="45%" height="200%">
+      <h6 class="watch-text text-center  pt-3">Seiko Essentials SSB321 Watch SSB321</h6>
     </div>
-    <div class="sec3"><img id="watchTM" src="img\1000.jpg" alt="img">
-      <h6>TIMEWEAR Analog Day Date Functioning Stainless Steel Chain Watch for Men </h6>
+    <div class="watch-box pt-5">
+      <img id="img3" class="watches-for-men" src="img\1000.jpg" alt="img">
+      <h6 class="watch-text text-center pt-3">TIMEWEAR Analog Day Date Functioning Stainless Steel Chain Watch for Men </h6>
     </div>
-    </section><a href="Menwatch.html">
-      <div class="sfm">
-    <button id="sec3" class="sfm">Shop for men</button>
-  </a>
-</div>
-    <section class="section3">
-    <div class="sec3"><img id="watchharper" src="img\Harper-Black-Gold_1024x1024.webp" alt="">
-      <h6>Titan Pro touch Screen Smart Watch </h6>
-
-    </div>
-    <div class="sec3"><img id="watchversace" src="img\14.jpg" alt="">
-      <h6>Titan Pro touch Screen Smart Watch </h6>
-
-    </div>
-    <div class="sec3"><img id="watchtissot" src="img\tissot-lady-heart-automatic-white-dial-ladies-watch.jpg" alt="">
-      <h6>Titan Pro touch Screen Smart Watch </h6>
-    </div>
-  </section>
-  <div class="sfw">
-  <a href="Womenwatch.html">
-  <button id="sec3" class="sfw">Shop for Women</button></a>
   </div>
-  <section class="banner">
-    <h4>Repair Services</h4>
-    <h2>Up to <span>40% off</span>  - All Watches for Men and Women</h2>
-    <a href="Sale.html">  <button class="normal">Explore more</button></a>
-  </section>
+   <a href="Menwatch.html"><button class="btn btn-primary shop-button">Shop for men</button></a>
+   </div>
+
+   <div class="mensection-watches">
+   <div class="container womensection">
+    <div class="watch-box pt-5">
+      <img id="img4" src="img\Harper-Black-Gold_1024x1024.webp" alt="">
+      <h6 class="watch-text text-center pt-3">Titan Pro touch Screen Smart Watch </h6>
+    </div>
+    <div class="watch-box pt-5">
+      <img id="img5" src="img\14.jpg" alt="">
+      <h6 class="watch-text text-center pt-3">Titan Pro touch Screen Smart Watch </h6>
+    </div>
+    <div class="watch-box pt-5">
+      <img id="img6" src="img\tissot-lady-heart-automatic-white-dial-ladies-watch.jpg" alt="">
+      <h6 class="watch-text text-center pt-3">Titan Pro touch Screen Smart Watch </h6>
+    </div>
+    </div>
+  <a href="Womenwatch.html"><button  class="btn btn-primary shop-button mb-5">Shop for Women</button></a>
+  </div>
+
+
+  <div class="banner py-5">
+    <h4 class="text-center text-black display-5 mt-5 pt-4">Exclusive Offers</h4>
+    <h2 class="text-center text-black">Up to <span>40% off</span>  - All Watches for Men and Women</h2>
+    <div class="text-center py-5">
+    <a href="Sale.html"><button class="normal">Explore more</button></a>
+    </div>
+  </div>
   
   
 
-  <section class="testimonials">
-   <div class="paras"> <p>Testimonials</p></div>
+  <div class="testimonials">
+   <h1 class="text-center mt-5">Testimonials</h1>
     <div class="swiper mySwiper container">
       <div class="swiper-wrapper content">
         <div class=" swiper-slide review">
           
   
-          <div class="review-content">
-            <h4> Mohit Bhardwaj </h4>
-            <div class="star">
+          <div class="review-content text-center">
+            <h4 class="text-center"> Mohit Bhardwaj </h4>
+            <div class="star text-center">
               <i class="fa fa-star  fa-sm"></i>
               <i class="fa fa-star fa-sm"></i>
               <i class="fa fa-star  fa-sm"></i>
               <i class="fa fa-star  fa-sm"></i>
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
               <p> I was apprehensive about ordering a watch online, but I'm glad I did. </p>
-  
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
-  
             <hr>
-            <div class="icons">
-              <i class="fa-brands fa-twitter-square"></i>
+            <div class="icons text-center">
+              <i class="fa-brands fa-twitter-square text-center"></i>
               <i class="fa-brands fa-facebook-square" aria-hidden="true"></i>
               <i class="fa fa-envelope-o" aria-hidden="true"></i>
             </div>
@@ -305,18 +336,17 @@
 
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Pankaj </h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
               <i class="fa fa-star fa-sm"></i>
               <i class="fa fa-star  fa-sm"></i>
             </div>
-            <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+            <div class="light-text text-center">
+
               <p> The shipping and packaging was fantastic! I highly recommend their watch selection. </p>
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -330,7 +360,7 @@
 
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Punit Khattar </h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
@@ -340,12 +370,11 @@
               <i class="fa fa-star  fa-sm"></i>
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+            
               <p> Great service, even after the sale. </p>
   
 
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -359,7 +388,7 @@
 
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Ranbir </h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
@@ -369,11 +398,10 @@
               <i class="fa fa-star  fa-sm"></i>
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+             
               <p> Beautiful watch! Absolutely love the color and constantly get compliments on it!  </p>
   
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -387,7 +415,7 @@
 
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Ashish Thakur </h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
@@ -396,11 +424,10 @@
               
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+             
               <p> Very functional product!  </p>
   
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -414,7 +441,7 @@
 
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Rohit Jaswal </h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
@@ -424,11 +451,10 @@
               <i class="fa fa-star  fa-sm"></i>
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+             
               <p> I was apprehensive about ordering a watch online, but I'm glad I did. </p>
   
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -442,7 +468,7 @@
 
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Tony</h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
@@ -452,11 +478,10 @@
               <i class="fa fa-star  fa-sm"></i>
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+             
               <p> Awesome product. </p>
   
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -469,7 +494,7 @@
         </div>
         <div class=" swiper-slide review">
   
-          <div class="review-content">
+          <div class="review-content text-center">
             <h4> Mohan </h4>
             <div class="star">
               <i class="fa fa-star  fa-sm"></i>
@@ -478,11 +503,10 @@
               <i class="fa fa-star  fa-sm"></i>
             </div>
             <div class="light-text">
-              <i class="fa fa-check-circle-o"></i>
-              <h6>Verified Customer</h6>
+              
               <p> I was apprehensive about ordering a watch online, but I'm glad I did. </p>
   
-              <h4> Was this review helpful? Yes No</h4>
+              <h6> Was this review helpful? Yes No</h6>
             </div>
   
             <hr>
@@ -495,132 +519,92 @@
         </div>
 
       </div>
-
-      
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
       </div>
-
-      
-      </section>
-      <hr><br><br>
-
-      
-      <section class="description">
-  <div class="first">
-    <i id = "icons" class="fa fa-check fa-2x" aria-hidden="true"></i>
-  <h4>100% ORIGINAL</h4>
-  <p>All products are orignal and go through strict quality check.</p>
+    </div> 
+	<div class="container-fluid footer mt-5 py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Our Office</h5>
+                <p class="mb-2">
+                    <i class="fa fa-map-marker-alt me-3"></i>Uttar Pradesh, 201301
+                </p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@watchaholics2.com</p>
+                <div class="d-flex pt-3">
+                    <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Quick Links</h5>
+                <a class="btn btn-link" href="about.html">About Us</a>
+                <a class="btn btn-link" href="contact.html">Contact Us</a>
+                <a class="btn btn-link" href="feature.html">Our Services</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">Support</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Business Hours</h5>
+                <p class="mb-1">Monday - Friday</p>
+                <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                <p class="mb-1">Saturday</p>
+                <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                <p class="mb-1">Sunday</p>
+                <h6 class="text-light">Closed</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-4">Newsletter</h5>
+                <p>subscribe to our newsletter</p>
+                <div class="position-relative w-100">
+                    <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-secondary text-white px-2 my-3">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid copyright  py-1">
+  <div class="footerIconTop">
+   <a href="index.html"> <i class="fa fa-arrow-up pt-1" aria-hidden="true"></i></a>
   </div>
-  <div class="second">
-    <i id="icons" class="fa fa-clock-o fa-2x " aria-hidden="true"></i>
-    <h4>7 DAY RETURN</h4>
-    <p>Use our hassle free method to return.</p>
-  </div>
-  <div class="third">
-    <i id="icons" class="fa fa-truck fa-2x" aria-hidden="true"></i>
-    <h4>SHIPPING</h4>
-    <p>Shipping in India is free. Shipping charges applicable for International locations.</p>
-  </div>
-</section>
-
-  <section class="contactinfo">
-    <div class="left">
-      <h2>GET IN TOUCH</h2>
-      <ul>
-        <li>
-          <i class="fa fa-phone"></i>
-          +981 4 726 222 2
-        </li>
-        <li>
-          <i class="fa fa-mobile"></i>
-          +981 65 5439939
-        </li>
-        <li>
-          <i class="fa fa-map-marker"></i>
-          Office 112, Hind plaza Building 4A, water front</br> buildings, Deira Gold Souk, Dubai, UAE
-          info@watchaholics.com
-        </li>
-
-        <li><i class="fa fa-envelope"></i>
-          info@watchaholics</li>
-        <hr style="color: #6e695c;">
-      </ul>
-    </div>
-    <div class="rightsec">
-      <ul>
-        <h1>COLLECTIONS</h1>
-        <li>Home</li>
-        <li>Customer Services</li>
-        <li>Brands</li>
-        <li>Stores</li>
-      </ul>
-
-    </div>
-    <div class="collection2">
-      <ul>
-        <li>About</li>
-        <li>Privacy Policy</li>
-        <li>Terms of use</li>
-        <li>Blog</li>
-      </ul>
-    </div>
-    <div class="f-social">
-      <ul>
-        <li>
-          <a target="_blank ">
-            <i class="fa-brands fa-facebook"></i>
-
-        </li>
-
-        <li> <a target="_blank " href="https://www.facebook.com/watchaholic.ph/"></a>
-          <i class="fa-brands fa-twitter"></i>
-
-        </li>
-
-        <li> <a target="_blank " href="https://www.facebook.com/watchaholic.ph/"></a>
-          <i class="fa-brands fa-pinterest"></i>
-        </li>
-
-        <li>
-          <a target="_blank " href="https://www.facebook.com/watchaholic.ph/"></a>
-          <i class="fa-brands fa-instagram"></i>
-
-        </li>
-      </ul>
+  
+        <p class="copyright-cp mb-6 text-center ">Copyright &copy; <a href="#">Watchaholics</a>, All Right Reserved.</p>
+    
     </div>
 
-    <footer class="footer">
-      <p id="poweredby">
-      <h3>Powered by SUMMIT DIGITAL DEVELOPMENT</h3>
-      </p>
-      <p> Copyright&copy; 2017 www.WATCHAHOLICS.com-All rights reserved</p>
-    </footer>
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-  <script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js/main.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 30,
-      slidesPerGroup: 1,
+      slidesPerGroup: 3,
       loop: true,
       loopFillGroupWithBlank: true,
-      
       pagination: {
+        el: ".swiper-pagination",
         clickable: true,
-        
       },
       navigation: {
-      
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
-  
   </script>
-
-  </body>
+</body>
 </html>
